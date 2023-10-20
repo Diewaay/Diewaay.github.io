@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: bisque;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #202124;
+  color: rgb(28, 27, 27);
+}
+
+input,
+textarea {
+  padding: 12px;
+  margin: 12px 0;
+  font-family: "Inter", sans-serif;
+  background-color: transparent;
+  color: rgb(79, 7, 7);
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.note-input button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  background-color: transparent;
+  font-family: "Inter", sans-serif;
+  color: white;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #000;
+  font-weight: bold;
+}
+
+.note-app {
+  max-width: 1000px;
+  margin: 16px auto;
+  padding: 12px;
+}
+.note-app h1 {
+  text-align: center;
+}
+.note-app h2 {
+  font-weight: normal;
+  margin: 16px 0;
+}
+
+.note-item {
+  margin: 0 auto;
+  max-width: 500px;
+  margin-bottom: 2rem;
+}
+
+.note-item input,
+.note-item textarea {
+  display: block;
+  width: 100%;
+}
+
+.note-item__title {
+  font-weight: bold;
+}
+
+.note-item__createdAt {
+  font-size: 16px;
+  color: #5e1515;
+}
